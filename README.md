@@ -31,6 +31,10 @@ psql postgres -f schema.sql
 - [ ] Step 4: Indexing + query (`search.py`)
 - [ ] Step 5: Evaluation
 
+
+<img width="1664" height="911" alt="public movies 2026-08-29 19-46-11" src="https://github.com/user-attachments/assets/608ba470-386c-4acf-9719-d7cae5dab0ce" />
+
+
 ## Concepts: what's actually in the `embedding` column?
 
 **What is a vector here?** A fixed-size list of numbers — 384 floats — that represents the *meaning* of a plot's text. Two plots about similar stories end up with vectors that are numerically close together; unrelated plots end up far apart. That's what makes similarity search possible: comparing meaning becomes comparing numbers.
