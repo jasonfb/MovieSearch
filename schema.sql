@@ -7,6 +7,6 @@ CREATE EXTENSION IF NOT EXISTS vector;
 CREATE TABLE movies (
     id SERIAL PRIMARY KEY,
     title TEXT NOT NULL,
-    plt TEXT NOT NULL,
+    plot TEXT NOT NULL,
     embedding vector(384)
 )
