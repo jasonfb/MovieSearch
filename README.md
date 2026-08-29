@@ -26,7 +26,7 @@ psql postgres -f schema.sql
 ## Progress
 
 - [x] Step 1: Postgres + pgvector schema (`schema.sql`)
-- [ ] Step 2: Embedding generation (in progress)
-- [ ] Step 3: Ingestion (`ingest.py`)
+- [x] Step 2: Embedding generation (in progress)
+- [x] Step 3: Ingestion (`ingest.py`)
 - [ ] Step 4: Indexing + query (`search.py`)
 - [ ] Step 5: Evaluation
