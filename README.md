@@ -5,6 +5,11 @@ Similarity search for
 ```
 python3 -m venv venv
 source venv/bin/activate
+```
+(must do this every time you work with this app)
+
+install packages
+```
 pip install sentence-transformers pandas
 pip install pandas
 pip install psycopg2-binary
